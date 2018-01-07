@@ -9,7 +9,7 @@ def main():
 
 @app.route('/jz2896', methods=['GET'])
 def jz2896():
-    return render_template('janet.html', src='static/windows.jpg')
+    return render_template('janet.html', fav_pic='../static/windows.jpg', me='../static/me.jpg')
 
 if __name__ == '__main__':
     app.debug = True
